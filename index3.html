@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+
+	<head>
+		<meta charset="utf-8">
+		<title>자기소개 Page-No.3</title>
+		<link rel="stylesheet" media="screen" type="text/css" href="css/index3.css" />
+	</head>
+
+	<body>
+<!--Headings-->
+<h1>Web Programing Homework No.3</h1>
+
+<div id="introduce-box">
+
+	<div id="title-box">
+	<img src="images/icon3.png"  width="110" height="100" alt="icon3_img" id="icon3"/><span id="title">Survey!!</span>
+	</div>
+	
+	<div id="menuBar-box">
+		<span>||&nbsp;<a href="index.html">Who am I?</a>&nbsp;</span>
+		<span>||&nbsp;<a href="index2.html">Schedule</a>&nbsp;</span>
+		<span>||&nbsp;<a href="index3.html">Survey</a>&nbsp;||</span>
+	</div>
+
+	<div id="survey-box">
+	<form method="post" action="/update.php">
+	<span style="font-size:15pt;">+기본정보 입력+</span>
+	<ul>
+		<li>이&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;름:<input type="text" name="name" size="13"/>ex)홍길동</li>
+		<li>비밀번호:<input type="password" name="pw" size="13"/></li>
+		<li>비번확인:<input type="password" name="pwcheck" size="13"/></li>
+		
+	</ul>
+
+	<ol>
+		<li>이 사이트에 어떻게 들어왔나요?
+			<ol>
+				 <li><span>TV,인터넷 광고</span> <input type="radio" name="sub1" id="sub1_1" /></li>
+				 <li><span>친구나 지인</span> <input type="radio" name="sub1" id="sub1_2"  /></li>
+				 <li><span>아주 우연히</span> <input type="radio" name="sub1" id="sub1_3"  /></li>
+				 <li><span>과제채점하다</span> <input type="radio" name="sub1" id="sub1_4"  /></li>
+			</ol>
+		</li>
+		 <li>이 사이트에 마음에 드는 것을 모두 고르시오.
+			<ol>
+				 <li><span>디자인</span> <input type="checkbox" name="sub2" id="sub2_1"  /></li>
+				 <li><span>구성력</span> <input type="checkbox" name="sub2" id="sub2_2"  /></li>
+				 <li><span>이미지</span> <input type="checkbox" name="sub2" id="sub2_3"  /></li>
+				 <li><span>독창성</span> <input type="checkbox" name="sub2" id="sub2_4"  /></li>
+				  <li><span>화려함</span> <input type="checkbox" name="sub2" id="sub2_5"  /></li>
+			</ol>
+		</li>
+		 
+   </ol>
+		 <br/>   
+		 * 사이트 상태를 선택해주세요:<select name="select">
+							<option value="Good">Good</option>
+							<option value="Notbad">Not bad</option>
+							<option value="faild">faild</option>
+							</select>
+		<br/>
+		 <span>* 감상평</span><br/>
+		  <textarea id="txtMultiLine" name="txtMultiLine" rows="3" cols="40" style="height: 100px; overflow-y: scroll;"></textarea>
+		 <input type="submit" value="내용전송"  style="text-align:center;"/>
+
+	</form>
+	</div>
+
+	<div id="text" style="text-align:center; color:red">※Link는 위의 || Who am I? || Schedule || Survey ||를 클릭해주세요</div>
+	<div id="Copyright" style="text-align:center;">Copyright (c) 2012 Lee Jung Gu. all rights reserved</div>
+</div>
+
+	</body>
+</html>
