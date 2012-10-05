@@ -1,4 +1,4 @@
-	#title-box{
+		#title-box{
 				font-size:80pt;
 				font-weight:700;
 				color:#0066cc;
@@ -40,6 +40,12 @@
 				border-color:#0066cc;
 				width:725px;
 				font-family:"Verdana";
+			}
+			#Copyright{
+				text-align:center;
+			}
+			#text{
+				text-align:center; color:red;
 			}
 			a{
 				color:white;

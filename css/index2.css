@@ -1,4 +1,4 @@
-#title-box{
+			#title-box{
 				font-size:80pt;
 				font-weight:700;
 				color:#0066cc;
@@ -24,6 +24,12 @@
 				margin-left:5%;
 				text-align:left;
 				font-family:"Verdana";
+			}
+			#Copyright{
+				text-align:center;
+			}
+			#text{
+				text-align:center; color:red;
 			}
 			a{
 				color:white;
@@ -58,4 +64,3 @@
 			tbody tr		{
 				background-color:#FFF; 
 			}
-		</style>
